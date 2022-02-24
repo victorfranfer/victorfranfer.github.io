@@ -12,24 +12,60 @@
 	<style>
 		body{
 			background-color: #485696;
+			font-size: 20px;
 			font-family: 'Lato', sans-serif;
 			color: #f9c784;
 			text-align:justify;
+			line-height:30px;
 		}
 		h1{
 			font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+			text-align:center;
 		}
-		.Quem{
+		#Foto{
+			border-radius: 60% 85%;
+			display: block;
+			margin-left:auto;
+			margin-right:auto;
+		}
+		h3{
 			background-color:#f24c00;
 			color:#e7e7e7;
+			text-align:center;
+		}
+		.Quem{
 			padding: 10px 10px;
 			text-align:center;
 		}
+		#Trybe a{
+			text-decoration:none;
+			color:#F9C784;
+		}
 		.list{
-			background-color:#f24c00;
-			color:#e7e7e7;
-			padding: 10px;
+			padding: 5px;
 			text-align:center;
+			list-style:none;
+		}
+		.list a{
+			text-decoration:none;
+			color:#f9c784;
+		}
+		#Ing{
+			font-size: 1.5em;
+		}
+		#Esp{
+			font-size: 1.25em;
+		}
+		.ComLid{
+			font-size: 1.15em;
+		}
+		.Hardskill{
+			font-size: 1.1em;
+		}
+		#volta a{
+			text-decoration:none;
+			color:#f9c784;
+			text-align:end;
 		}
 	</style>
 </head>
@@ -42,10 +78,10 @@
 
 	<h3>Índice</h3>
 	<ul>
-		<li><a href="#Nome">Início</a></li>
-		<li><a href="#Quem">Quem sou eu?</a></li>
-		<li><a href="#Habilidades">Habilidades</a></li>
-		<li><a href="#Links">Links</a></li>
+		<li class="list"><a href="#Nome">Início</a></li>
+		<li class="list"><a href="#Quem">Quem sou eu?</a></li>
+		<li class="list"><a href="#Habilidades">Habilidades</a></li>
+		<li class="list"><a href="#Links">Links</a></li>
 	</ul>
 
 	<p id=Quem class="Quem">
@@ -53,33 +89,33 @@
 	</p>
 	<p class="Quem">Sou <strong>Victor Francisco Ferreira</strong>, tenho 32 anos, sou brasileiro e vivo em São Paulo. <br>Tenho
 		experiência como coordenador pedagógico e professor de Inglês e Espanhol. <br>Atualmente estudante de
-		Desenvolvimento Web na <strong><a href="https://www.betrybe.com/" target="_blank">Trybe.</a></strong></p>
+		Desenvolvimento Web na <strong id="Trybe"><a href="https://www.betrybe.com/" target="_blank">Trybe.</a></strong></p>
 	<p=id=Habilidades>
 	<h3>Habilidades</h3>
 	</p>
 	<ul>
-		<li id="Ing" class="list"><strong>Inglês - C2</strong></li>
-		<li id="Esp" class="list">Espanhol - C1</li>
-		<li id="ComLid" class="list"><strong>Comunicação</strong></li>
-		<li id="ComLid" class="list">Liderança</li>
-		<li id="Colab"class="list"><strong>Colaboração</strong></li>
-		<li id="Hardskill" class="list">Git</li>
-		<li id="Hardskill"class="list">GitHub</li>
-		<li id="Hardskill" class="list">HTML básico</li>
+		<li class="list" id="Ing"><strong>Inglês - C2</strong></li>
+		<li class="list" id="Esp">Espanhol - C1</li>
+		<li class="list" class="ComLid"><strong>Comunicação</strong></li>
+		<li class="list" class="ComLid">Liderança</li>
+		<li class="list"class="ComLId"><strong>Colaboração</strong></li>
+		<li class="list" class="Hardskill">Git</li>
+		<li class="list"class="Hardskill">GitHub</li>
+		<li class="list" class="Hardskill">HTML básico</li>
 	</ul>
 
 	<p id=Links>
 	<h3>Links</h3>
 	</p>
 	<ul>
-		<li><a href="#Foto">Foto</a></li>
-		<li><a href="https://www.linkedin.com/in/victor-francisco-ferreira-8a5291195/">LinkedIn</a></li>
-		<li><a href="https://github.com/victorfranfer">GitHub</a></li>
-		<li><a href="https://blog.betrybe.com/" target="_blank">Blog da Trybe</a></li>
+		<li class="list"><a href="#Foto">Foto</a></li>
+		<li class="list"><a href="https://www.linkedin.com/in/victor-francisco-ferreira-8a5291195/">LinkedIn</a></li>
+		<li class="list"><a href="https://github.com/victorfranfer">GitHub</a></li>
+		<li class="list"><a href="https://blog.betrybe.com/" target="_blank">Blog da Trybe</a></li>
 	</ul>
 
 	<br><br>
-	<a href="#Nome">Voltar ao início</a>
+	<p id="volta"><a href="#Nome">Voltar ao início</a></p>
 
 
 </body>
