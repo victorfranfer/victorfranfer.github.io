@@ -4,7 +4,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Victor Francisco Ferreira - Portfolio</title>
-	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="stylesheet" href="style.css" <link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link
 		href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
@@ -12,10 +12,22 @@
 </head>
 
 <body>
-	<p id=Nome>
-	<h1>Victor Francisco Ferreira</h1>
-	</p>
-	<img id="Foto" src="Victor23-02-2022.jpg" alt="Victor Francisco Ferreira" width="200px">
+	<div>
+		<p id=Nome>
+		<h1>Victor Francisco Ferreira</h1>
+		</p>
+		<div class="img-container">
+			<img id="Foto" src="Victor23-02-2022.jpg" alt="Victor Francisco Ferreira" width="200px">
+			<p id=Quem class="Quem">
+			<h3>Quem sou eu?</h3>
+			</p>
+			<p class="Quem">Sou <strong>Victor Francisco Ferreira</strong>, tenho 32 anos, sou brasileiro e vivo em São Paulo.
+				<br>Tenho
+				experiência como coordenador pedagógico e professor de Inglês e Espanhol. <br>Atualmente estudante de
+				Desenvolvimento Web na <strong id="Trybe"><a href="https://www.betrybe.com/" target="_blank">Trybe.</a></strong>
+			</p>
+		</div>
+	</div>
 
 	<h3>Índice</h3>
 	<ul>
@@ -25,15 +37,8 @@
 		<li class="list"><a href="#Links">Links</a></li>
 	</ul>
 
-	<p id=Quem class="Quem">
-	<h3>Quem sou eu?</h3>
-	</p>
-	<p class="Quem">Sou <strong>Victor Francisco Ferreira</strong>, tenho 32 anos, sou brasileiro e vivo em São Paulo.
-		<br>Tenho
-		experiência como coordenador pedagógico e professor de Inglês e Espanhol. <br>Atualmente estudante de
-		Desenvolvimento Web na <strong id="Trybe"><a href="https://www.betrybe.com/" target="_blank">Trybe.</a></strong>
-	</p>
-	<p=id=Habilidades>
+
+	<p id=Habilidades>
 		<h3>Habilidades</h3>
 		</p>
 		<ul>
@@ -48,14 +53,14 @@
 		</ul>
 
 		<p id=Links>
-		<h3>Links</h3>
+		<h3>Links e indicações</h3>
 		</p>
 		<ul>
-			<li class="list"><a href="#Foto">Foto</a></li>
-			<li class="list"><a href="https://www.linkedin.com/in/victor-francisco-ferreira-8a5291195/">LinkedIn</a>
+			<li class="list"><img src="photoicon.jpg" alt="Photo Icon" width="20px"><a href="#Foto">Foto</a></li>
+			<li class="list"><img src="linkedin.png" alt="LinkedIn Logo" width="20px"><a href="https://www.linkedin.com/in/victor-francisco-ferreira-8a5291195/" target="_blank">LinkedIn</a>
 			</li>
-			<li class="list"><a href="https://github.com/victorfranfer">GitHub</a></li>
-			<li class="list"><a href="https://blog.betrybe.com/" target="_blank">Blog da Trybe</a></li>
+			<li class="list"><img src="github.png" alt="GitHub Logo" width="20px"><a href="https://github.com/victorfranfer" target="_blank">GitHub</a></li>
+			<li class="list"><img src="trybe.png" alt="Trybe Logo" width="20px"><a href="https://blog.betrybe.com/" target="_blank">Blog da Trybe</a></li>
 		</ul>
 
 		<br><br>

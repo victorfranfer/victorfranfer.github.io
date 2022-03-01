@@ -1,9 +1,9 @@
 body{
-    background-color: #485696;
+    background-color: #fdfffc;
     font-size: 20px;
     font-family: 'Lato', sans-serif;
-    color: #f9c784;
-    text-align:justify;
+    color: #235789;
+    text-align:left;
     line-height:30px;
 }
 h1{
@@ -15,28 +15,31 @@ h1{
     display: block;
     margin-left:auto;
     margin-right:auto;
+    float:left;
+    padding: 10px;
+    background-color: #c1292e;
 }
 h3{
-    background-color:#f24c00;
-    color:#e7e7e7;
-    text-align:center;
+    background-color:#c1292e;
+    color:#fdfffc;
+    text-align: left;
 }
 .Quem{
     padding: 10px 10px;
-    text-align:center;
+    text-align:left;
 }
 #Trybe a{
     text-decoration:none;
-    color:#F9C784;
+    color:#235789;
 }
 .list{
     padding: 5px;
-    text-align:center;
+    text-align:left;
     list-style:none;
 }
 .list a{
     text-decoration:none;
-    color:#f9c784;
+    color:#235789;
 }
 #Ing{
     font-size: 1.5em;
@@ -52,6 +55,12 @@ h3{
 }
 #volta a{
     text-decoration:none;
-    color:#f9c784;
+    color:#020202;
     text-align:end;
 }
+.img-container{
+    height: 280px;
+}
+//*div{
+    border: 2px solid #F1D302;
+}*\
